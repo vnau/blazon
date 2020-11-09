@@ -14,39 +14,30 @@
   height: 11px;
   border-radius: 2px;
   background: url("../flags/xs/ru/sprites.png"); }
-  .blazon-flag.blazon-xs else {
-    background-position: 0 0; }
 
 .blazon-flag.blazon-sm {
   width: 30px;
   height: 20px;
   border-radius: 3px;
   background: url("../flags/sm/ru/sprites.png"); }
-  .blazon-flag.blazon-sm else {
-    background-position: 0 0; }
 
 .blazon-flag.blazon-md, .blazon-flag {
   width: 60px;
   height: 40px;
   border-radius: 3px;
   background: url("../flags/md/ru/sprites.png"); }
-  .blazon-flag.blazon-md else, .blazon-flag else {
-    background-position: 0 0; }
 
 .blazon-flag.blazon-lg {
   width: 120px;
   height: 80px;
   border-radius: 3px;
   background: url("../flags/lg/ru/sprites.png"); }
-  .blazon-flag.blazon-lg else {
-    background-position: 0 0; }
 
 .blazon-flag.blazon-xl {
   width: 240px;
   height: 160px;
-  border-radius: 3px; }
-  .blazon-flag.blazon-xl else {
-    background-position: 0 0; }
+  border-radius: 3px;
+  background-position: 0 0; }
 
 .blazon-flag {
   display: inline-block;
