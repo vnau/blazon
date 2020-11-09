@@ -13,25 +13,40 @@
   width: 16px;
   height: 11px;
   border-radius: 2px;
-  background: url("../flags/xs/ru-sprites.png"); }
+  background: url("../flags/xs/ru/sprites.png"); }
+  .blazon-flag.blazon-xs else {
+    background-position: 0 0; }
 
 .blazon-flag.blazon-sm {
   width: 30px;
   height: 20px;
   border-radius: 3px;
-  background: url("../flags/sm/ru-sprites.png"); }
+  background: url("../flags/sm/ru/sprites.png"); }
+  .blazon-flag.blazon-sm else {
+    background-position: 0 0; }
 
 .blazon-flag.blazon-md, .blazon-flag {
   width: 60px;
   height: 40px;
   border-radius: 3px;
-  background: url("../flags/md/ru-sprites.png"); }
+  background: url("../flags/md/ru/sprites.png"); }
+  .blazon-flag.blazon-md else, .blazon-flag else {
+    background-position: 0 0; }
 
 .blazon-flag.blazon-lg {
   width: 120px;
   height: 80px;
   border-radius: 3px;
-  background: url("../flags/lg/ru-sprites.png"); }
+  background: url("../flags/lg/ru/sprites.png"); }
+  .blazon-flag.blazon-lg else {
+    background-position: 0 0; }
+
+.blazon-flag.blazon-xl {
+  width: 240px;
+  height: 160px;
+  border-radius: 3px; }
+  .blazon-flag.blazon-xl else {
+    background-position: 0 0; }
 
 .blazon-flag {
   display: inline-block;
@@ -295,16 +310,260 @@
 .blazon-flag.flag-ru-zab {
   background-position: 0 100%; }
 
-/*!Blazon flags 1.0.0 (https://github.com/vnau/blazon). Licensed under MIT.*/
-.blazon-glossy:after {
-  content: '';
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: calc(100% - 2px);
-  height: 50%;
-  border-radius: 2px;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)); }
+.blazon-flag.blazon-xl.flag-ru-ad {
+  background-image: url("../flags/xl/ru/ad.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-al {
+  background-image: url("../flags/xl/ru/al.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-alt {
+  background-image: url("../flags/xl/ru/alt.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-amu {
+  background-image: url("../flags/xl/ru/amu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ark {
+  background-image: url("../flags/xl/ru/ark.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ast {
+  background-image: url("../flags/xl/ru/ast.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ba {
+  background-image: url("../flags/xl/ru/ba.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-bel {
+  background-image: url("../flags/xl/ru/bel.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-bry {
+  background-image: url("../flags/xl/ru/bry.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-bu {
+  background-image: url("../flags/xl/ru/bu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ce {
+  background-image: url("../flags/xl/ru/ce.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-che {
+  background-image: url("../flags/xl/ru/che.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-chu {
+  background-image: url("../flags/xl/ru/chu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-cr {
+  background-image: url("../flags/xl/ru/cr.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-cu {
+  background-image: url("../flags/xl/ru/cu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-da {
+  background-image: url("../flags/xl/ru/da.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-in {
+  background-image: url("../flags/xl/ru/in.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-irk {
+  background-image: url("../flags/xl/ru/irk.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-iva {
+  background-image: url("../flags/xl/ru/iva.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kam {
+  background-image: url("../flags/xl/ru/kam.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kb {
+  background-image: url("../flags/xl/ru/kb.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kc {
+  background-image: url("../flags/xl/ru/kc.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kda {
+  background-image: url("../flags/xl/ru/kda.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kem {
+  background-image: url("../flags/xl/ru/kem.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kgd {
+  background-image: url("../flags/xl/ru/kgd.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kgn {
+  background-image: url("../flags/xl/ru/kgn.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kha {
+  background-image: url("../flags/xl/ru/kha.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-khm {
+  background-image: url("../flags/xl/ru/khm.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kir {
+  background-image: url("../flags/xl/ru/kir.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kk {
+  background-image: url("../flags/xl/ru/kk.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kl {
+  background-image: url("../flags/xl/ru/kl.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-klu {
+  background-image: url("../flags/xl/ru/klu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ko {
+  background-image: url("../flags/xl/ru/ko.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kos {
+  background-image: url("../flags/xl/ru/kos.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kr {
+  background-image: url("../flags/xl/ru/kr.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-krs {
+  background-image: url("../flags/xl/ru/krs.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-kya {
+  background-image: url("../flags/xl/ru/kya.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-len {
+  background-image: url("../flags/xl/ru/len.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-lip {
+  background-image: url("../flags/xl/ru/lip.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-mag {
+  background-image: url("../flags/xl/ru/mag.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-me {
+  background-image: url("../flags/xl/ru/me.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-mo {
+  background-image: url("../flags/xl/ru/mo.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-mos {
+  background-image: url("../flags/xl/ru/mos.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-mow {
+  background-image: url("../flags/xl/ru/mow.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-mur {
+  background-image: url("../flags/xl/ru/mur.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-nen {
+  background-image: url("../flags/xl/ru/nen.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ngr {
+  background-image: url("../flags/xl/ru/ngr.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-niz {
+  background-image: url("../flags/xl/ru/niz.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-nvs {
+  background-image: url("../flags/xl/ru/nvs.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-oms {
+  background-image: url("../flags/xl/ru/oms.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ore {
+  background-image: url("../flags/xl/ru/ore.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-orl {
+  background-image: url("../flags/xl/ru/orl.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-per {
+  background-image: url("../flags/xl/ru/per.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-pnz {
+  background-image: url("../flags/xl/ru/pnz.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-pri {
+  background-image: url("../flags/xl/ru/pri.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-psk {
+  background-image: url("../flags/xl/ru/psk.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ros {
+  background-image: url("../flags/xl/ru/ros.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-rya {
+  background-image: url("../flags/xl/ru/rya.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sa {
+  background-image: url("../flags/xl/ru/sa.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sak {
+  background-image: url("../flags/xl/ru/sak.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sam {
+  background-image: url("../flags/xl/ru/sam.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sar {
+  background-image: url("../flags/xl/ru/sar.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-se {
+  background-image: url("../flags/xl/ru/se.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sev {
+  background-image: url("../flags/xl/ru/sev.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-smo {
+  background-image: url("../flags/xl/ru/smo.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-spe {
+  background-image: url("../flags/xl/ru/spe.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sta {
+  background-image: url("../flags/xl/ru/sta.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-sve {
+  background-image: url("../flags/xl/ru/sve.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ta {
+  background-image: url("../flags/xl/ru/ta.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-tam {
+  background-image: url("../flags/xl/ru/tam.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-tom {
+  background-image: url("../flags/xl/ru/tom.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-tul {
+  background-image: url("../flags/xl/ru/tul.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-tve {
+  background-image: url("../flags/xl/ru/tve.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ty {
+  background-image: url("../flags/xl/ru/ty.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-tyu {
+  background-image: url("../flags/xl/ru/tyu.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-ud {
+  background-image: url("../flags/xl/ru/ud.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-uly {
+  background-image: url("../flags/xl/ru/uly.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-vgg {
+  background-image: url("../flags/xl/ru/vgg.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-vla {
+  background-image: url("../flags/xl/ru/vla.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-vlg {
+  background-image: url("../flags/xl/ru/vlg.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-vor {
+  background-image: url("../flags/xl/ru/vor.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-yan {
+  background-image: url("../flags/xl/ru/yan.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-yar {
+  background-image: url("../flags/xl/ru/yar.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-yev {
+  background-image: url("../flags/xl/ru/yev.png"); }
+
+.blazon-flag.blazon-xl.flag-ru-zab {
+  background-image: url("../flags/xl/ru/zab.png"); }
 
 .blazon-flagv.blazon-xs {
   width: 16px;
