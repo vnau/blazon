@@ -1,4 +1,4 @@
-/*!Blazon flags 1.0.0 (https://github.com/vnau/blazon). Licensed under MIT.*/
+/* Blazon flags 1.0.0 (https://github.com/vnau/blazon). Licensed under MIT. */
 .blazon-glossy:after {
   content: '';
   position: absolute;
@@ -45,9 +45,6 @@
   -webkit-box-shadow: inset 0 0 2px #a32b07;
   -moz-box-shadow: inset 0 0 30px #a32b07;
   box-shadow: inset 0px 0px 1.5px 0px #a32b07; }
-
-.blazon-flag.flag-ru-ad {
-  background-position: 0 0%; }
 
 .blazon-flag.flag-ru-al {
   background-position: 0 1.1905%; }
